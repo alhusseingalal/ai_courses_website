@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>الحسين أحمد جلال - مهندس ذكاء اصطناعي ومطور تطبيقات</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        /* RTL specific styles */
+        body {
+            font-family: 'Cairo', sans-serif;
+            text-align: right;
+        }
+        .nav-menu {
+            padding-right: 0;
+        }
+        .nav-item {
+            margin-right: 30px;
+            margin-left: 0;
+        }
+        .info-item i {
+            margin-left: 10px;
+            margin-right: 0;
+        }
+        .footer-links {
+            padding-right: 0;
+        }
+        .footer-links a:hover {
+            padding-right: 5px;
+            padding-left: 0;
+        }
+        .footer-col h4::after {
+            right: 0;
+            left: auto;
+        }
+        .timeline::after {
+            right: 50%;
+            left: auto;
+            margin-right: -2px;
+            margin-left: 0;
+        }
+        .timeline-item:nth-child(odd)::after {
+            left: -12px;
+            right: auto;
+        }
+        .timeline-item:nth-child(even)::after {
+            right: -12px;
+            left: auto;
+        }
+        .timeline-item:nth-child(odd) {
+            right: 0;
+            left: auto;
+        }
+        .timeline-item:nth-child(even) {
+            right: 50%;
+            left: auto;
+        }
+        @media screen and (max-width: 991px) {
+            .timeline::after {
+                right: 31px;
+                left: auto;
+            }
+            .timeline-item {
+                width: 100%;
+                padding-right: 70px;
+                padding-left: 25px;
+            }
+            .timeline-item:nth-child(even) {
+                right: 0;
+            }
+            .timeline-item::after {
+                right: 20px;
+                left: auto;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container header-container">
+            <a href="#" class="logo">الحسين أحمد <span>جلال</span></a>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="#home" class="nav-link active">الرئيسية</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link">نبذة عني</a></li>
+                <li class="nav-item"><a href="#skills" class="nav-link">المهارات</a></li>
+                <li class="nav-item"><a href="#experience" class="nav-link">الخبرات</a></li>
+                <li class="nav-item"><a href="#projects" class="nav-link">المشاريع</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">اتصل بي</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <img src="images/profile.jpg" alt="الحسين أحمد جلال" class="hero-img">
+                <h1 class="fade-in">الحسين أحمد جلال</h1>
+                <h2 class="slide-up"><span class="typed-text"></span></h2>
+                <div class="hero-btns">
+                    <a href="#contact" class="btn">تواصل معي</a>
+                    <a href="#projects" class="btn btn-outline">مشاهدة أعمالي</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-title">
+                <h2>نبذة عني</h2>
+            </div>
+            <div class="about-content">
+                <div class="about-img">
+                    <img src="images/profile.jpg" alt="الحسين أحمد جلال">
+                </div>
+                <div class="about-text">
+                    <h3>مهندس ذكاء اصطناعي ومطور تطبيقات</h3>
+                    <p>أنا مبرمج ومطور برمجيات وأدرس في مجال الذكاء الاصطناعي وتعلم الآلة والتعلم العميق. عملت على أكثر من مشروع بنفسي في مجال تعلم الآلة والتعلم العميق وكذلك التعلم الفيدرالي.</p>
+                    <p>لدي خبرة واسعة في تطوير تطبيقات سطح المكتب (مبيعات - عيادات - معامل - مراكز طبية - برامج مختصة) وتطبيقات الويب باستخدام تقنيات مختلفة مثل .NET و React.</p>
+                    <div class="personal-info">
+                        <div class="info-item">
+                            <i class="fas fa-calendar"></i>
+                            <span>تاريخ الميلاد: 30/12/1983</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>البريد الإلكتروني: alhusseingalal1983@gmail.com</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-phone"></i>
+                            <span>الهاتف: +201006926062</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-graduation-cap"></i>
+                            <span>التعليم: جامعة بني سويف</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-title">
+                <h2>مهاراتي</h2>
+            </div>
+            <div class="skills-container">
+                <div class="skill-box animate slide-up">
+                    <h3>البرمجة</h3>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <div class="skill-name">
+                                <span>Python</span>
+                                <span>95%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="95%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">
+                                <span>C#</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">
+                                <span>VB.Net</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">
+                                <span>JavaScript</span>
+                                <span>80%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="80%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-box animate slide-up">
+                    <h3>تطوير الويب</h3>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <div class="skill-name">
+                                <span>HTML</span>
+                                <span>95%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="95%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">
+                                <span>CSS</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">
+                                <span>React</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">
+                                <span>.NET</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="90%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-box animate slide-up">
+                    <h3>الذكاء الاصطناعي</h3>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <div class="skill-name">
+                                <span>تعلم الآلة</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">
+                                <span>التعلم العميق</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">
+                                <span>معالجة الصور</span>
+                                <span>80%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">
+                                <span>التعلم الفيدرالي</span>
+                                <span>75%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="75%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-box animate slide-up">
+                    <h3>قواعد البيانات</h3>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <div class="skill-name">
+                                <span>SQL Server</span>
+                                <span>95%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="95%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">
+                                <span>MySQL</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">
+                                <span>تحليل البيانات</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="85%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <div class="section-title">
+                <h2>خبراتي</h2>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item animate slide-right">
+                    <div class="timeline-content">
+                        <span class="timeline-date">2018 - الآن</span>
+                        <h3 class="timeline-title">مطور تطبيقات سطح المكتب</h3>
+                        <p>قمت بتطوير العديد من تطبيقات سطح المكتب للمبيعات والمقاهي والمطاعم ومراكز الخدمات وغيرها.</p>
+                    </div>
+                </div>
+                <div class="timeline-item animate slide-left">
+                    <div class="timeline-content">
+                        <span class="timeline-date">2019 - الآن</span>
+                        <h3 class="timeline-title">مدرب دورات</h3>
+                        <p>قدمت العديد من الدورات في مجال الكمبيوتر والبرمجة وقواعد البيانات.</p>
+                    </div>
+                </div>
+                <div class="timeline-item animate slide-right">
+                    <div class="timeline-content">
+                        <span class="timeline-date">2020 - الآن</span>
+                        <h3 class="timeline-title">مطور تطبيقات الذكاء الاصطناعي</h3>
+                        <p>عملت على العديد من المشاريع مثل التنبؤ ببعض الأمراض ومشاريع معالجة الصور وشبكات GAN.</p>
+                    </div>
+                </div>
+                <div class="timeline-item animate slide-left">
+                    <div class="timeline-content">
+                        <span class="timeline-date">2021 - الآن</span>
+                        <h3 class="timeline-title">مطور تطبيقات الويب</h3>
+                        <p>تطوير تطبيقات الويب باستخدام تقنيات .NET و React.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="experience">
+        <div class="container">
+            <div class="section-title">
+                <h2>التعليم</h2>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item animate slide-right">
+                    <div class="timeline-content">
+                        <span class="timeline-date">جامعة بني سويف</span>
+                        <h3 class="timeline-title">دراسات جامعية</h3>
+                    </div>
+                </div>
+                <div class="timeline-item animate slide-left">
+                    <div class="timeline-content">
+                        <span class="timeline-date">كلية الدراسات العليا للبحوث الإحصائية - جامعة القاهرة</span>
+                        <h3 class="timeline-title">دبلوم في هندسة البرمجيات </h3>
+                        <p>التقدير: ممتاز</p>
+                    </div>
+                </div>
+                <div class="timeline-item animate slide-right">
+                    <div class="timeline-content">
+                        <span class="timeline-date">كلية الدراسات العليا للبحوث الإحصائية - جامعة القاهرة</span>
+                        <h3 class="timeline-title">تمهيدي ماجستير في هندسة البرمجيات </h3>
+                        <p>التقدير: ممتاز</p>
+                    </div>
+                </div>
+                <div class="timeline-item animate slide-left">
+                    <div class="timeline-content">
+                        <span class="timeline-date">جامعة القاهرة</span>
+                        <h3 class="timeline-title">رسالة الماجستير</h3>
+                        <p>موضوع الرسالة: استخدام التعلم الفيدرالي مع تأمين إنترنت الأشياء</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-title">
+                <h2>مشاريعي</h2>
+            </div>
+            <div class="projects-filter">
+                <button class="filter-btn active" data-filter="all">الكل</button>
+                <button class="filter-btn" data-filter="desktop">تطبيقات سطح المكتب</button>
+                <button class="filter-btn" data-filter="web">تطبيقات الويب</button>
+                <button class="filter-btn" data-filter="ai">الذكاء الاصطناعي</button>
+            </div>
+            <div class="projects-grid">
+                <div class="project-item desktop animate fade-in">
+                    <img src="https://via.placeholder.com/600x400?text=نظام+المبيعات" alt="نظام المبيعات" class="project-img">
+                    <div class="project-overlay">
+                        <h3 class="project-title">نظام المبيعات</h3>
+                        <p class="project-category">تطبيقات سطح المكتب</p>
+                        <a href="#" class="btn">عرض التفاصيل</a>
+                    </div>
+                </div>
+                <div class="project-item desktop animate fade-in">
+                    <img src="https://via.placeholder.com/600x400?text=نظام+العيادات" alt="نظام العيادات" class="project-img">
+                    <div class="project-overlay">
+                        <h3 class="project-title">نظام العيادات</h3>
+                        <p class="project-category">تطبيقات سطح المكتب</p>
+                        <a href="#" class="btn">عرض التفاصيل</a>
+                    </div>
+                </div>
+                <div class="project-item desktop animate fade-in">
+                    <img src="https://via.placeholder.com/600x400?text=نظام+المعامل" alt="نظام المعامل" class="project-img">
+                    <div class="project-overlay">
+                        <h3 class="project-title">نظام المعامل</h3>
+                        <p class="project-category">تطبيقات سطح المكتب</p>
+                        <a href="#" class="btn">عرض التفاصيل</a>
+                    </div>
+                </div>
+                <div class="project-item web animate fade-in">
+                    <img src="https://via.placeholder.com/600x400?text=موقع+تجاري" alt="موقع تجاري" class="project-img">
+                    <div class="project-overlay">
+                        <h3 class="project-title">موقع تجاري</h3>
+                        <p class="project-category">تطبيقات الويب</p>
+                        <a href="#" class="btn">عرض التفاصيل</a>
+                    </div>
+                </div>
+                <div class="project-item web animate fade-in">
+                    <img src="https://via.placeholder.com/600x400?text=لوحة+تحكم" alt="لوحة تحكم" class="project-img">
+                    <div class="project-overlay">
+                        <h3 class="project-title">لوحة تحكم</h3>
+                        <p class="project-category">تطبيقات الويب</p>
+                        <a href="#" class="btn">عرض التفاصيل</a>
+                    </div>
+                </div>
+                <div class="project-item ai animate fade-in">
+                    <img src="https://via.placeholder.com/600x400?text=التنبؤ+بالأمراض" alt="التنبؤ بالأمراض" class="project-img">
+                    <div class="project-overlay">
+                        <h3 class="project-title">التنبؤ بالأمراض</h3>
+                        <p class="project-category">الذكاء الاصطناعي</p>
+                        <a href="#" class="btn">عرض التفاصيل</a>
+                    </div>
+                </div>
+                <div class="project-item ai animate fade-in">
+                    <img src="https://via.placeholder.com/600x400?text=معالجة+الصور" alt="معالجة الصور" class="project-img">
+                    <div class="project-overlay">
+                        <h3 class="project-title">معالجة الصور</h3>
+                        <p class="project-category">الذكاء الاصطناعي</p>
+                        <a href="#" class="btn">عرض التفاصيل</a>
+                    </div>
+                </div>
+                <div class="project-item ai animate fade-in">
+                    <img src="https://via.placeholder.com/600x400?text=شبكات+GAN" alt="شبكات GAN" class="project-img">
+                    <div class="project-overlay">
+                        <h3 class="project-title">شبكات GAN</h3>
+                        <p class="project-category">الذكاء الاصطناعي</p>
+                        <a href="#" class="btn">عرض التفاصيل</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-title">
+                <h2>اتصل بي</h2>
+            </div>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>الهاتف</h4>
+                            <p>+201006926062</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>البريد الإلكتروني</h4>
+                            <p>Alhusseingalal1983@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>الموقع</h4>
+                            <p>مصر</p>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <form id="contact-form" class="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" class="form-control" placeholder="الاسم">
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" class="form-control" placeholder="البريد الإلكتروني">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" class="form-control" placeholder="الموضوع">
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" class="form-control" placeholder="الرسالة"></textarea>
+                    </div>
+                    <button type="submit" class="btn">إرسال الرسالة</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-container">
+                <div class="footer-col">
+                    <h4>الحسين أحمد جلال</h4>
+                    <p>مهندس ذكاء اصطناعي ومطور تطبيقات سطح المكتب وتطبيقات الويب.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>روابط سريعة</h4>
+                    <ul class="footer-links">
+                        <li><a href="#home">الرئيسية</a></li>
+                        <li><a href="#about">نبذة عني</a></li>
+                        <li><a href="#skills">المهارات</a></li>
+                        <li><a href="#experience">الخبرات</a></li>
+                        <li><a href="#projects">المشاريع</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>الهوايات</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">القراءة</a></li>
+                        <li><a href="#">البرمجة</a></li>
+                        <li><a href="#">الرياضة</a></li>
+                        <li><a href="#">الإلكترونيات</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>اللغات</h4>
+                    <ul class="footer-links">
+                        <li>العربية</li>
+                        <li>الإنجليزية</li>
+                        <li>الفرنسية</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 الحسين أحمد جلال. جميع الحقوق محفوظة.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="js/main.js"></script>
+    <script>
+        // Initialize typed.js in Arabic
+        document.addEventListener('DOMContentLoaded', function() {
+            if (document.querySelector('.typed-text')) {
+                let typed = new Typed('.typed-text', {
+                    strings: ["مهندس ذكاء اصطناعي", "مطور تطبيقات سطح المكتب", "مطور تطبيقات ويب", "متخصص في تعلم الآلة"],
+                    typeSpeed: 50,
+                    backSpeed: 30,
+                    backDelay: 1000,
+                    loop: true
+                });
+            }
+        });
+    </script>
+</body>
+</html>
